@@ -30,7 +30,7 @@ const ProductDetail = () => {
     <div className="container py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         {/* Product Images */}
-        <div className="aspect-[4/5] bg-muted rounded-sm overflow-hidden border var(--hairline)">
+        <div className="aspect-[4/5] bg-muted rounded-sm overflow-hidden border-hairline">
           <img 
             src={product.images[0]} 
             alt={product.name}

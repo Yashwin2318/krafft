@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
       className="group"
     >
       <Link to={`/product/${product.id}`}>
-        <div className="aspect-[4/5] overflow-hidden bg-muted mb-4 rounded-sm border var(--hairline)">
+        <div className="aspect-[4/5] overflow-hidden bg-muted mb-4 rounded-sm border-hairline">
           <img 
             src={product.image} 
             alt={product.name}
